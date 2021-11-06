@@ -1,0 +1,594 @@
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+*{  
+    font-family:"Circular Std Book";
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background:#ffffff;
+}
+section{
+    min-height:100vh;
+    width: 100%;
+    padding-top: 198px;
+}
+/*--------------------------- home page ------------------------*/
+.homepage { 
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+    
+    background-position: center;
+}
+.homepage .content{
+    position: absolute;
+    z-index: 5;
+    padding-left:500px;
+    display: inline-block;
+    
+}
+.homepage .content h3{
+   
+    font-weight: 900;
+font-size: 72px;
+line-height: 78px;
+text-align: center;
+color: #112D57;
+margin: 0px 10px;
+}
+.homepage .content p{
+    font-weight: 450;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #5C5C5C;
+}
+.homepage .content div{
+    padding: 94px 56.5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+.homepage .content  a{
+   
+    width: 192px;
+    height: 52px;
+    margin-right: 25px;
+    align-items: center;
+    padding: 20px 36px;
+    border-radius:85px;
+    border: 1px solid #00B6F0;
+
+    
+}
+#btn-get-started{
+    color: #ffffff;
+    background: #00B6F0;
+}
+#btn-try-to-free{
+    color: #000000;
+    background: #ffffff;   
+}
+.homepage .image{
+    position: absolute;   
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#blue-elip {
+    position: absolute;
+    padding-top: 0px;
+    z-index: 1;
+}
+#browser-image{
+    position: absolute;
+    z-index: 1;
+    padding: 25% 1%;
+    width: 100%;
+   
+}
+#yellow-elip{
+    position: absolute;
+   margin-left: 1200px;
+    padding-top:300px;
+   z-index: 1;
+}
+/*---------------------------------- header ------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#ffffff;
+    padding:30px 91px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+height: 58px;
+width: 186px;
+}
+header .navbar a{
+    font-size:18px;
+    line-height:20px;
+    color: #20262a;
+    margin: 0px 10px;
+    visibility: visible;
+}
+header .navbar a:hover{
+    color: #1165e4da;
+}
+header .loginbtn{
+    padding:16px 46px;
+    width:143px;
+    height:52px;
+    border: 1px solid #00B6F0;
+    border-radius:85px;
+    font-size: 18px ;
+    font-weight: bold;
+    line-height:20px;
+    color: #00B6F0;
+    cursor: pointer;
+}
+header .loginbtn:hover{
+    color: #ffffff;
+    background: #00B6F0;
+}
+
+/* ------------------------ features 1 start ------------------------ */
+.features{
+    position: relative;
+    padding: 800px 565px;
+}
+.features .box-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.features .box-container .box1{   
+    background: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.features .box-container .box1 h4{
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height, or 117% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    /* secondary */
+    
+    color: #F3CD03; 
+}
+.features .box-container .box1 h3{
+    width:614px;
+    font-size: 56px;
+    line-height: 65px;
+/* identical to box height, or 116% */
+text-align: center;
+letter-spacing: 0.2px;
+/* first text */
+color: #20262A;
+}
+.features .box-container .box1 p{
+    font-weight: 450;
+font-size: 24px;
+line-height: 38px;
+/* or 158% */
+color: #5C5C5C;
+text-align: center;
+letter-spacing: 0.2px;
+}
+.features .box-container .box1 div{
+    padding: 69px 100px;
+    padding-right: 10px;
+}
+.features .box-container .box1 div a{
+    width: 187px;
+    height: 52px;
+    margin-right: 13px;
+    align-items: center;
+    padding: 16px 50px;
+    border-radius:85px;
+    border: 1px solid #00B6F0;
+    font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+}
+#btn-download{
+    color: #ffffff;
+    background: #00B6F0;
+}
+#btn-see-wallthrough{
+    color: #000000;
+    background: #ffffff;   
+}
+/*-------------------------------- feature 1 end--------------------------------*/
+
+/*-------------------------------- feature 2 start--------------------------------*/
+.feature-2{
+   position: absolute;
+   top: 2100px;
+   background:url(images/Vector_screen1.png) no-repeat;
+   background-position: right;
+}
+.feature-2 .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 118.5px;
+    padding-right: 50px;
+}
+.feature-2 .column .content{
+    flex:1 1 40rem;
+    width: 459px;
+    height: 172px;
+}
+.feature-2 .column .image{
+    padding-right: 60px;
+    flex: 1 1 40 rem;
+}
+.feature-2 .column .image img{
+    width: 100%;
+}
+.feature-2 .column .content h3{
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color: #20262A;
+}
+.feature-2 .column .content p{
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+.feature-2 .column .content a{
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #00B6F0;
+}
+/*----------------------------- feature 2 end ------------------------*/
+
+/*------------------------------- feature 3 start---------------------------------*/
+.feature-3{
+    position: absolute;
+    top: 2800px;
+    background:url(images/Vector-screen2.png) no-repeat;    
+    background-position: left;
+ }
+ .feature-3 .column{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .feature-3 .column .content{
+     flex:1 1 40rem;
+     width: 459px;
+     height: 172px;
+     padding-left: 300px;;
+ }
+ .feature-3 .column .image{
+     padding-left:100px;
+     flex: 1 1 40 rem;
+ }
+ .feature-3 .column .image img{
+     width: 100%;
+ }
+ .feature-3 .column .content h3{
+     font-weight: 450;
+     font-size: 36px;
+     line-height: 42px;
+     letter-spacing: 0.1px;
+     color: #20262A;
+ }
+ .feature-3 .column .content p{
+     font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+ }
+ .feature-3 .column .content a{
+     font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #00B6F0;
+ }
+/*------------------------------- feature 3 end ---------------------------------*/
+
+/*----------------------------- feature 4 start -------------------------------- */
+.features-4{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    width: 100%;
+    height: 486px;
+}
+.features-4 .box-container{
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.features-4 .box-container h3{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    color: #20262A;
+}
+.features-4 .box-container p{
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+
+#blue-pecent{
+    position: absolute;
+    z-index: 1;
+    padding-left: 0px;
+}
+
+.features-4 .box-container a{
+    position:absolute;
+    width: 266px;
+    height: 52px;
+    left:42%;
+    top:80%;
+    padding: 20px 36px;
+    align-items: center;
+    background: #00B6F0;
+    border-radius: 85px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+/*-----------------------------feature 4 end-----------------------------*/
+
+/*-----------------------------feature 5 start-----------------------------*/
+.features-5{ 
+    background-image: url(images/feature5.png) ;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 839px;
+}
+.features-5 .column{
+    display: inline-block;
+    text-align: center;
+    padding-left:35%;
+}
+.features-5 .column h3{
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color: #20262A;
+}
+.features-5 .column img{
+    width:146.85px;
+    height: 59.94px;
+}
+.features-5 .column p{
+    padding-left: 0px;
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+    color: #5C5C5C;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+#avatar-client{
+    width: 190px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.features-5 .column a{
+    width: 255px;
+    height: 52px;
+    background: #00B6F0;
+    border-radius: 85px;
+    align-items: center;
+    padding: 16px 60px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+/*----------------------------- feature 5 end ------------------------*/
+
+/*----------------------------- feature 6 start ------------------------*/
+
+.features-6{
+    width: 100%;
+    height: 496px;
+    background: #182333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 20px;
+    justify-content:center; 
+}
+.features-6 .column1{
+    margin-right: 177px;
+}
+.features-6 .column1 h3{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+.features-6 .column1 p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.features-6 .column2 h4{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+.features-6 .column2 h3{
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+.features-6 .column2 h3 span{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: 0.2px;
+    color: #F3CD03;
+}
+.features-6 .column2 p{
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+}
+.features-6 .column2 a{
+    width: 196px;
+    height: 52px;
+    background: #00B6F0;
+    color: #ffffff;
+    border-radius: 85px;
+    padding: 16px 48px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+/*-----------------------------feature 6 end ------------------------*/
+
+/*-----------------------------feature 7 start ------------------------*/
+.features-7{
+    width: 100%;
+    height: 443px;
+    background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 20px;
+    justify-content:center; 
+}
+.features-7 .column1{
+    margin-right: 111px;
+    padding: 26px 22px;
+    width: 494px;
+    height: 156px;
+}
+.features-7 .column1 h3{
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color: #20262A;
+    margin: 0px 10px;
+}
+.features-7 .column2 p{
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    margin: 0px 10px;
+    padding-bottom: 30px;
+}
+.features-7 .column2 a{
+    width: 196px;
+    height: 52px;
+    background: #00B6F0;
+    color: #ffffff;
+    border-radius: 85px;
+    padding: 16px 48px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+}
+/* -------------------------------- feature 7 end -------------------------------- */
+
+/* -------------------------------- footer --------------------------------*/
+footer { 
+    width: 100%;
+    height: 207px;
+    background:#ffffff;
+    padding:30px 91px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+footer .logo{
+    height: 58px;
+    width: 186px;
+}
+footer .logo p{
+    width: 246px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+footer .navbar a{
+    font-size:18px;
+    line-height:20px;
+    color: #20262a;
+    margin: 0px 10px;
+    visibility: visible;
+}
+footer .navbar a:hover{
+    color: #1165e4da;
+}
+footer .contact-logo{  
+    width: 260px;
+    height:50.35px;
+}
+footer .contact-logo img{
+    padding-right: 39.71px;
+}

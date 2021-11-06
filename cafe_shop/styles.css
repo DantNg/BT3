@@ -1,0 +1,377 @@
+/*-------------------------------------------- import font ----------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Alegreya Sans");
+@import url("https://fonts.googleapis.com/css?family=Cedarville Cursive");
+@import url("https://fonts.googleapis.com/css?family=Josefin Sans");
+
+
+/* ======================================================================================================*/
+body{
+    font-family: "Josefin Sans";
+}
+/*--------------------------------------------------Header-------------------------------------------------------*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+header .header-option{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 250px;
+    text-align: center
+}
+header .header-option a{
+    
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+    flex-wrap: nowrap;
+    width: 65px;
+    height: 16px;
+}
+header .header-option a:hover{
+    text-decoration: underline black;
+}
+
+header button{
+    margin-right: 120px;
+    border: solid 1px #2D635E;
+    width: 135px;
+    height: 43px;
+    border-radius: 10px;
+    background-color:#2D635E;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+header button:hover{
+    background-color:#20413d;
+    cursor: pointer;
+}
+header .image{
+    display: flex;
+    align-items: center;
+    margin-left:100px;
+}
+header .image img{
+    width: 95px;
+    object-fit: cover;
+}
+header .image .logo-text{
+    font-family: Cedarville Cursive;
+    font-size: 32px;
+}
+
+
+/*--------------------------------------------------Section-1_Describe Start -------------------------------------------------------*/
+.Section-1_Describe{
+    display: flex;
+    margin-top: 200px;
+    justify-content:space-between;
+}
+.Section-1_Describe_Left{
+    margin: 0px 0px 0px 120px;
+}
+.Section-1_Describe_Left_Title{
+    font-size:28px;
+    font-family: Cedarville Cursive;
+}
+.Section-1_Describe_Left_Name{
+    font-size: 63px;
+    margin-top: 30px;
+}
+.Section-1_Describe_Left_button{
+    margin-top:30px
+}
+.Section-1_Describe_Left_button button{
+    border: solid 1px #2D635E;
+    width: 235px;
+    height: 55px;
+    border-radius: 10px;
+    background-color:#2D635E;
+    color: white;
+    font-size: 20px;
+   
+}
+.Section-1_Describe_Left_button button:hover{
+    background-color:#26524d;
+    cursor: pointer;
+}
+.Section-1_Describe_Right{
+    display: flex;
+    margin-right: 100px;
+    position: relative;
+}
+.Section-1_Describe_Right_img img{
+    width: 345px;
+    object-fit: cover;
+}
+.Section-1_Describe_Right_Link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Section-1_Describe_Right_Link img{
+    width: 32px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.Section-1_Describe_Right_Link label{
+    transform:rotate(-90deg);
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: Josefin Sans;
+}
+.Section-1_Describe_Item{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-left: -200px;
+    margin-top: -130px;
+}
+.Section-1_Describe_Item_1{
+    width: 160px;
+    height:160px;
+    background-color:#f4f7f5;
+    display: flex;
+    margin: 0px auto 0px auto;
+}
+.Section-1_Describe_Item_1 img{
+    width: 25px;
+    object-fit: cover;
+    margin: auto;
+}
+.Section-1_Describe_Item_2{
+    width: 410px;
+    height: 466px;
+    background-color:#E3EBE7;
+    z-index: -1;
+}
+/*--------------------------------------------------Section-1_Describe End-------------------------------------------------------*/
+/*--------------------------------------------------Coffee-Shop-Samwayle Start-------------------------------------------------------*/
+.Coffee-Shop-Samwayle{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+.Coffee-Shop-Samwayle-Left{
+    position: relative;
+    margin-left: 100px;
+}
+.Coffee-Shop-Samwayle-Left_Title{
+    position: absolute;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    margin-top: -70px;
+    font-family: Cedarville Cursive;
+}
+.Coffee-Shop-Samwayle-Left_img{
+    margin-left: 70px;
+}
+.Coffee-Shop-Samwayle-Left_img img{
+    width:360px;
+    object-fit: cover;
+}
+.Coffee-Shop-Samwayle_Left_Item{
+    width: 380px;
+    height:290px;
+    background-color:#FAE9E0;
+    margin-top: -340px;
+    margin-left: 30px;
+}
+.Coffee-Shop-Samwayle-Right_Theme{
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Josefin Sans;
+}
+.Coffee-Shop-Samwayle-Right_Describe{
+    width: 650px;
+    font-size: 19px;
+    color: #444A4A;
+    margin-top: 20px;
+    margin-right: 100px;
+    line-height: 36px;
+}
+/*--------------------------------------------------Coffee-Shop-Samwayle End-------------------------------------------------------*/
+
+
+/*--------------------------------------------------Coffee-of-the-day Start-------------------------------------------------------*/
+.Coffee-of-the-day{
+    margin-top:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.Coffee-of-the-day_Left{
+    margin-left: 125px;
+}
+.Coffee-of-the-day_Left_Theme{
+    font-size: 38px;
+    line-height: 38px;
+    font-family: Josefin Sans;
+}
+.Coffee-of-the-day_Left_Describe{
+    width: 615px;
+    font-size: 19px;
+    line-height: 36px;
+    margin-top: 20px;
+    color: #444A4A;
+}
+.Coffee-of-the-day_Left_button{
+    margin-top: 20px;
+}
+.Coffee-of-the-day_Left_button button{
+    border: solid 1px #2D635E;
+    width: 235px;
+    height: 55px;
+    border-radius: 10px;
+    background-color:#2D635E;
+    color: white;
+    font-size: 20px;
+    font-family: George Round;
+}
+.Coffee-of-the-day_Left_button button:hover{
+    background-color:#295550;
+    cursor: pointer;
+}
+.Coffee-of-the-day_Right{
+    position: relative;
+    display: flex;
+    align-items:flex-start;
+    margin-right: 70px;
+}
+.Coffee-of-the-day_Right_Title{
+    transform: rotate(-90deg);
+    font-family: Cedarville Cursive;
+    font-size: 28px;
+}
+.Coffee-of-the-day_Right_Item{
+    position: absolute;
+    width: 410px;
+    height: 276px;
+    background-color:#E3EBE7;
+    z-index: -1;
+    margin-left: -103px;
+    margin-top: 20px;
+}
+/*--------------------------------------------------Coffee-of-the-day End-------------------------------------------------------*/
+
+.Section-2{
+    background-color:#f4f7f7;
+}
+/*--------------------------------------------------Option Start-------------------------------------------------------*/
+.Option{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    padding-top: 61px;
+    margin-top: 70px;
+    height: 500px;
+}
+.Option_Item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin: 10px 40px 0px 40px;
+    width: 339.84px;
+    height: 458px;
+    border-radius: 25px;
+    box-shadow: 0px 28px 22px -8px #aaaaaa;
+}
+.Option_Topics{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+}
+.Option_Title{
+    width: 224px;
+    height: 217px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 0.001em;
+}
+.Option_button button{
+    border: solid 1px #2D635E;
+    width: 235px;
+    height: 55px;
+    border-radius: 10px;
+    background-color:#2D635E;
+    color: white;
+    font-size: 20px;
+    font-family: George Round;
+    margin-top: 43px;
+    
+}
+.Option_button button:hover{
+    background-color:#132a28;
+    cursor: pointer;
+}
+/*--------------------------------------------------Option End-------------------------------------------------------*/
+.Section-3{
+    display: flex;
+    flex-direction:column;
+    margin-top:100px
+}
+/*--------------------------------------------------Adress_Map-------------------------------------------------------*/
+.Adress{
+    display: flex;
+    justify-content:space-between;
+}
+.Adress_Map{
+    position: relative;
+    display: flex;
+    margin-left: 150px;
+}
+.Adress_Map img{
+    width: 646px;
+    object-fit: cover;
+}
+.Adress_Map_Title{
+    position: absolute;
+    font-family: Cedarville Cursive;
+    font-size: 28px;
+    color: #000000;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+    margin-top: -25px;
+    right:-40px;
+}
+.Adress_Detail_Topic{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 32px;
+}
+.Adress_Detail{
+    margin-right: 120px;
+}
+.Adress_Detail_List{
+    text-align: left;
+    padding-left:0px;
+    padding-right:260px;
+  
+}
+.Adress_Detail_List li{
+    
+    font-family: Alegreya Sans;
+    font-size: 19px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    align-items: center;
+    text-align: justify;
+    color: #444A4A;
+}
+/*--------------------------------------------------footer-------------------------------------------------------*/
+footer{
+    text-align: center;
+    margin: 80px auto 0px auto;
+    font-family: Alegreya Sans;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}
